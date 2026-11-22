@@ -6,9 +6,9 @@
  * installed in the background and the old cache is removed when it activates. Cache names carry
  * BASE, so builds served from different paths of one origin leave each other's caches alone.
  */
-const VERSION = "fcdb65d672ff7769";
+const VERSION = "c2ff0899d315410b";
 const BASE = "/titrate-app/";
-const PRECACHE = ["/titrate-app/","/titrate-app/assets/index-BXqKnOaH.css","/titrate-app/assets/index-CQ6hQ9tN.js","/titrate-app/icons/apple-touch-icon.png","/titrate-app/icons/icon-192.png","/titrate-app/icons/icon-512-maskable.png","/titrate-app/icons/icon-512.png","/titrate-app/index.html","/titrate-app/manifest.webmanifest"];
+const PRECACHE = ["/titrate-app/","/titrate-app/assets/index-DaH6Om6F.js","/titrate-app/assets/index-mI1bV2D6.css","/titrate-app/icons/apple-touch-icon.png","/titrate-app/icons/icon-192.png","/titrate-app/icons/icon-512-maskable.png","/titrate-app/icons/icon-512.png","/titrate-app/index.html","/titrate-app/manifest.webmanifest"];
 const PREFIX = `titrate:${BASE}:`;
 const CACHE = `${PREFIX}${VERSION}`;
 
